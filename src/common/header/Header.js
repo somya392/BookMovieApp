@@ -194,7 +194,7 @@ class Header extends Component {
         return (
             <div>
                 <header className="header">
-                    <img src={logo} className="logo" alt="Movies App Logo" />
+                    <img src={logo} className="app-logo" alt="Movies App Logo" />
                     {!this.state.loggedIn ?
                         <div className="loginButton">
                             <Button variant="contained" color="default" onClick={this.openModalHandler}>
